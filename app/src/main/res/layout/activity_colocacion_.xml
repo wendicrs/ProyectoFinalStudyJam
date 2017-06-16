@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/huellita2"
+    tools:context="com.example.wendy.proyectostudyjam.Colocacion_Activity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="atras"
+            android:background="@drawable/flechaatras"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:background="@drawable/bordetitulos"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6a4222"
+        android:gravity="center"
+        android:text="COLOCACION CORRECTA DE BOZAL EN PERROS"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:onClick="youtubecolocacion"
+        android:src="@drawable/colocacion" />
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/bordetexxto"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/colocacion"
+                android:textColor="#6a4222"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

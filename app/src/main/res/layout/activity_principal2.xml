@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/perros"
+    tools:context="com.example.wendy.proyectostudyjam.Principal2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="atras"
+                android:layout_weight="1"
+                android:src="@drawable/flechaatras"
+                android:layout_width="35dp"
+                android:layout_height="35dp" />
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INDICE"
+                android:textColor="#6a4222"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+
+                    <Button
+                        android:id="@+id/btnintroduccion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="introduccion"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnsujetar"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bordebotones"
+                        android:text="sujetar correctamente a un gato"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btncolocacion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="colocacion correcta bozal en perros"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnevaluar"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="como evaluar a un animal herido"
+                        android:textColor="#6a4222"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btntecnicareanimacion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="tecnica reanimacion cardio pulmonar"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnahogo"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="Ahogo"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnbloqueos"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="BLOQUEOS RESPIRATORIOS"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnintoxicacion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="INTOXICACION"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btndislocacion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="dislocacion y huesos rotos"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnestadoshock"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="estado y shock"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnhemorragias"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="hemorragias"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnconvulsiones"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="convulsiones"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnquemaduras"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="quemaduras"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnpicaduras"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="picaduras"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnelectrocucion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="electrocucion"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btndesnutricion"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="desnutricion y deshidratacion"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnconcejos"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/bordebotones"
+                        android:text="concejos y botiquin"
+                        android:textColor="#6a4222"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

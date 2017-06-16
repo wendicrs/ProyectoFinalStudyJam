@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/huellita2"
+    android:padding="20dp"
+    tools:context="com.example.wendy.proyectostudyjam.Bloqueos_Respiratorios_Activity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:onClick="atras"
+            android:background="@drawable/flechaatras"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#6a4222"
+        android:text="BLOQUEOS RESPIRATORIOS"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="320dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="@string/bloqueo"
+                android:textColor="#6a4222"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+    
+
+</LinearLayout>

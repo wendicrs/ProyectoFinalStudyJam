@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wendy.proyectostudyjam">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainInscripcionActivity" />
+        <activity android:name=".Principal2Activity" />
+        <activity android:name=".Introduccion" />
+        <activity android:name=".Sujetar" />
+        <activity android:name=".YoutubeSujetarActivity" />
+        <activity android:name=".Colocacion_Activity" />
+        <activity android:name=".Evaluar_Activity" />
+        <activity android:name=".Tecnica_Reanimacion_Activity" />
+        <activity android:name=".Ahogo_Activity" />
+        <activity android:name=".Bloqueos_Respiratorios_Activity" />
+        <activity android:name=".Intoxicacion_Activity" />
+        <activity android:name=".Dislocacion_Activity" />
+        <activity android:name=".EstadoyShock_Activity" />
+        <activity android:name=".Hemorragias_Activity" />
+        <activity android:name=".Convulsiones_Activity" />
+        <activity android:name=".Quemaduras_Activity" />
+        <activity android:name=".Picaduras_Activity" />
+        <activity android:name=".Electrocucion_Activity" />
+        <activity android:name=".Desnutricion_Activity" />
+        <activity android:name=".Concejos_y_botiquin_Activity" />
+        <activity android:name=".colocacion_youtube_Activity" />
+        <activity android:name=".tecnica_youtube_Activity" />
+        <activity android:name=".Menu2Activity" />
+        <activity android:name=".Ahogo_youtube" />
+        <activity android:name=".Sos_pagina" />
+        <activity android:name=".veterinaria_pagina"></activity>
+    </application>
+
+</manifest>
